@@ -98,7 +98,7 @@ if (UserProfile.find().count() === 0)
             {network: 'twitter', url: 'https://twitter.com/tuzman'},
             {network: 'facebook', url: 'https://www.facebook.com/tuzman'},
             {network: 'google-plus', url: 'https://plus.google.com/u/0/118154214685688201078/'},
-            {network: 'github', url: ''}
+            {network: 'github', url: 'https://github.com/miketuszynski'}
         ]
     })
 }

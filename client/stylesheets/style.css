@@ -248,6 +248,27 @@ hr{
     border-radius:25px;
 }
 
+/* Loading */
+.loading {
+    text-align: center;
+    margin: 20px;
+}
+
+.loading:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.loading .centered {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    padding: 10px 15px;
+}
+
 /* Resume */
 
 .resume{
