@@ -80,25 +80,68 @@ if (UserProfile.find().count() === 0)
     UserProfile.insert({
         firstName: 'Mike',
         lastName: 'Tuszynski',
-        thumbNail: 'img/avatar.png',
+        thumbnail: 'img/avatar.png',
         tagLine: [
             { icon: 'icon-code', title: 'Technical Guru' },
             { icon: 'icon-code-fork', title: 'Leader' },
             { icon: 'icon-compass', title: 'Manager' }
         ],
-        postalStreetAddress: '1455 Jefferson St',
-        postalCity: 'San Francisco',
-        postalState: 'CA',
-        postalZip: '94123',
-        contactPhone: '(415) 508-8957',
+        postalStreetAddress: [
+            {icon: 'icon-home', title: '1455 Jefferson St'}
+        ],
+        postalLocation: [
+            {icon: 'icon-map-marker', title: 'San Francisco, CA 94123'}
+        ],
+        contactPhone: [
+            {icon: 'icon-mobile-phone', title: '(415) 508-8957'}
+        ],
         website: 'www.miketuszynski.info',
-        email: 'mike@miketuszynski.info',
+        email: [
+            {icon: 'icon-envelope', title:'mike@miketuszynski.info'}
+        ],
         social: [
-            {network: 'linkedin', url: 'http://lnkd.in/v3Qbhn'},
-            {network: 'twitter', url: 'https://twitter.com/tuzman'},
-            {network: 'facebook', url: 'https://www.facebook.com/tuzman'},
-            {network: 'google-plus', url: 'https://plus.google.com/u/0/118154214685688201078/'},
-            {network: 'github', url: 'https://github.com/miketuszynski'}
+            {network: 'linkedin', url: 'http://lnkd.in/v3Qbhn', icon: 'icon-linkedin'},
+            {network: 'twitter', url: 'https://twitter.com/tuzman', icon: 'icon-twitter'},
+            {network: 'facebook', url: 'https://www.facebook.com/tuzman', icon: 'icon-facebook'},
+            {network: 'google-plus', url: 'https://plus.google.com/u/0/118154214685688201078/', icon: 'icon-google-plus'},
+            {network: 'github', url: 'https://github.com/miketuszynski', icon: 'icon-github'}
+        ],
+        executiveSummary: [
+            {paragraph: 'I am a sophisticated and skilled strategic lead technologist with far-reaching experience in consolidating workflow and automation through software development. I possess a rare combination of technology expertise and excellent problem solving skills. This skillset along with my relentless work ethic provides me with a strong foundation to pursue my passion for innovative solutions.'},
+            {paragraph: 'My recent career experience has been spent at various advertising technology organizations where I have been involved in building solutions that automate workflow and gain efficiencies in various departments. I have led and continue to lead technology professionals in a variety of ways, such as technical thought-leadership, code review and QA, and process overview and enhancement.'},
+            {paragraph: 'Since the majority of my career has been working within the advertising vertical I possess deep knowledge and understanding of its technical landscape. My work history and experience allows me to straddle both the technology and business worlds in the development of cutting edge solutions.'}
+        ],
+        profileOptions: [
+            {
+                icon: 'icon-print',
+                enable: true,
+                title: 'Print',
+                location: '#'
+            },
+            {
+                icon: 'icon-download-alt',
+                enable: true,
+                title: 'Download PDF',
+                location: '/docs/MikeTuszynski_Resume.pdf'
+            },
+            {
+                icon: 'icon-download-alt',
+                enable: true,
+                title: 'Download Word',
+                location: '/docs/MikeTuszynski_Resume.docx'
+            },
+            {
+                icon: 'icon-list-alt',
+                title: 'vCard',
+                enable: true,
+                location: '#'
+            },
+            {
+                icon: 'icon-star-empty',
+                enable: true,
+                title: 'Blog',
+                location: 'http://miketuszynski.info/blog/'
+            }
         ]
     })
 }

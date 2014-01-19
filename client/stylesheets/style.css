@@ -69,12 +69,12 @@ hr{
 }
 
 .header .user-image{
-
+    margin-left:32px;
 }
 
 .header .user-image img{
     margin:20px;
-    width:90px;
+    width:120px;
     border:1px solid #ddd;
     padding:5px;
     background:#fff;
@@ -105,6 +105,29 @@ hr{
     color:#777;
     position:relative;
     top:3px;
+}
+
+.header .white-header i.icon-home{
+    padding:8px;
+    font-size:18px;
+    color:#777;
+    position:relative;
+    top:3px;
+}
+
+.header .white-header i.icon-map-marker{
+    padding:8px;
+    font-size:18px;
+    margin-left:4px;
+    color:#777;
+    position:relative;
+    top:3px;
+}
+
+.header .white-header span.address{
+    font-size:13px;
+    color:#777;
+    margin-left:5px;
 }
 
 .header .white-header  strong{
@@ -421,7 +444,6 @@ hr{
         border-bottom:0px;
         border-left:0px;
         border-right:0px;
-
     }
 
     .header .white-header span.mobile{
