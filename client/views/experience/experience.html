@@ -1,0 +1,29 @@
+<template name="experience">
+    <div class="container">
+        <div class="resume">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="personal-details">
+                        <h3>Experience</h3>
+                        <p><em>Proven Quality.</em></p>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="personal-desc">
+                        {{#each experiences}}
+                        <h3>{{companyName}} <span class="label label-primary pull-right">{{employmentDateRange}}</span></h3>
+                        <p class="degree">{{title}}</p>
+                        <ul>
+                            {{#each employmentBullets}}
+                            <li>{{bullet}}</li>
+                            {{/each}}
+                        </ul>
+                        <hr>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+</template>

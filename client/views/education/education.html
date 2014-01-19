@@ -1,0 +1,23 @@
+<template name="education">
+    <div class="container">
+        <div class="resume">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="personal-details">
+                        <h3>Education</h3>
+                        <p><em>Jesuit trained.</em></p>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="personal-desc">
+                        {{#each education}}
+                        <h3>{{schoolName}} <span class="label label-primary pull-right">{{graduationDate}}</span></h3>
+                        <p class="degree">{{degree}} ({{major}})</p>
+                        <hr>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

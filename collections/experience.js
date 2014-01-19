@@ -1,0 +1,1 @@
+Experience = new Meteor.Collection('experience');

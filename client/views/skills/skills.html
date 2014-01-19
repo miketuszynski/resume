@@ -1,0 +1,31 @@
+<template name="skills">
+    <div class="container">
+        <div class="resume">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="personal-details">
+                        <h3>Skills</h3>
+                        <p><em>Artfully mastered.</em></p>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="personal-desc">
+                        {{#each skills}}
+                        <h3 class="skill-set">{{name}}</h3>
+                        <div class="progress progress-striped active">
+                            <div class="progress-bar {{progressIndicator}}"
+                                 role="progressbar"
+                                 aria-valuenow="{{proficiency}}"
+                                 aria-valuemin="0"
+                                 aria-valuemax="100"
+                                 style="width: {{proficiency}}%">
+                                <span class="sr-only">{{proficiency}}% Complete</span>
+                            </div>
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

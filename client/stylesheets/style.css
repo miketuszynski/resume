@@ -1,0 +1,429 @@
+/************************
+Designed by : http://responsivewebinc.com
+************************/
+
+/* Basic CSS starts */
+
+body{
+    background:#eee url('/img/back.png') repeat;
+    -webkit-font-smoothing: antialiased;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+}
+
+p{
+    margin:0;
+    padding:0;
+}
+
+a{
+
+}
+
+a:hover{
+
+}
+
+a:hover,a:active,a:focus {
+    outline: 0;
+}
+
+hr{
+
+}
+
+:focus {
+    outline:none;
+}
+
+::-moz-focus-inner {
+    border:0;
+}
+
+/* Basic CSS ends */
+
+/* Container */
+
+.container{
+    width:900px;
+}
+
+/* Header */
+
+.header{
+    background:#ddd url('/img/headerback.png') repeat;
+    padding-right:20px;
+    border-radius:8px;
+    box-shadow:0px 0px 3px #333;
+    border-bottom:1px solid #777;
+}
+
+.header .user{
+
+}
+
+.header .user-image{
+
+}
+
+.header .user-image img{
+    margin:20px;
+    width:90px;
+    border:1px solid #ddd;
+    padding:5px;
+    background:#fff;
+}
+
+.header .user h1{
+    font-size:23px;
+    color:#555;
+    text-align:left;
+    font-style:bold;
+    font-family: 'Droid Serif', serif;
+    margin:15px;
+}
+
+.header .white-header{
+    background:#fff;
+    border-left:1px solid #eee;
+    border-right:1px solid #eee;
+    border-bottom:2px solid #eee;
+    padding:10px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+}
+
+.header .white-header i.icon-mobile-phone{
+    padding:10px;
+    font-size:25px;
+    color:#777;
+    position:relative;
+    top:3px;
+}
+
+.header .white-header  strong{
+    color:#777;
+    font-size:13px;
+}
+
+.header .white-header i.icon-envelope{
+    padding:10px;
+    font-size:15px;
+    color:#777;
+
+}
+
+.header .white-header a{
+    text-decoration:none;
+    color:#000;
+}
+
+.header .white-header a.email{
+    font-size:13px;
+    color:#777;
+}
+
+/* Social */
+
+.header .white-header .social{
+    padding:10px;
+}
+
+.header .white-header .social a{
+    display:inline-block;
+    width:30px;
+    font-size:13px;
+    line-height:30px;
+    text-decoration:none;
+    color:#fff;
+    border-radius:25px;
+    text-align:center !important;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 1s ease;
+    -o-transition: background 1s ease;
+    -ms-transition: background 1s ease;
+    transition: background 1s ease;
+}
+
+.header .white-header .social a.facebook{
+    background:#1e78ae;
+}
+
+.header .white-header .social a.twitter{
+    background:#1ba1e2;
+}
+
+.header .white-header .social a.google-plus{
+    background:#f22d0c;
+}
+
+.header .white-header .social a.github{
+    background:#dd1617;
+}
+
+.header .white-header .social a.linkedin{
+    background:#2d93cf;
+}
+
+
+.header .white-header .social a:hover{
+    background:#555;
+    -webkit-transition: background 1s ease;
+    -moz-transition: background 1s ease;
+    -o-transition: background 1s ease;
+    -ms-transition: background 1s ease;
+    transition: background 1s ease;
+}
+
+.header .skills{
+    padding-top:35px;
+}
+
+.header .skills i.icon-code{
+    text-align:center;
+    color:#fff;
+    display:inline-block;
+    font-size:18px;
+    width:40px;
+    line-height:40px;
+    background:#f22d0c;
+    border-radius:25px;
+
+}
+.header .skills i.icon-code-fork{
+    text-align:center;
+    color:#fff;
+    display:inline-block;
+    font-size:18px;
+    width:40px;
+    line-height:40px;
+    background:#2d93cf;
+    border-radius:25px;
+}
+.header .skills i.icon-compass{
+    text-align:center;
+    color:#fff;
+    display:inline-block;
+    font-size:18px;
+    width:40px;
+    line-height:40px;
+    background:#006400;
+    border-radius:25px;
+}
+
+.header .skills span{
+    color:#777;
+    padding-left:8px;
+    padding-right:10px;
+    font-size:17px;
+    font-style:italic;
+    font-family: 'Droid Serif', serif;
+}
+
+.header .skills i.icon-camera{
+    text-align:center;
+    color:#fff;
+    display:inline-block;
+    font-size:18px;
+    width:40px;
+    line-height:40px;
+    background:#2d93cf;
+    border-radius:25px;
+}
+
+.header .skills i.icon-user{
+    text-align:center;
+    color:#fff;
+    display:inline-block;
+    font-size:18px;
+    width:40px;
+    line-height:40px;
+    background:#006400;
+    border-radius:25px;
+}
+
+/* Resume */
+
+.resume{
+    padding:20px;
+    background:#ddd url('/img/headerback.png') repeat;
+    border-radius:8px;
+    box-shadow:0px 0px 3px #333;
+    margin-top:10px;
+}
+.resume .personal-details{
+
+}
+
+.resume .personal-details h3{
+    font-size:22px;
+    font-family: 'Open Sans', sans-serif;
+    color:#555;
+}
+
+.resume .personal-details p{
+    font-size:14px;
+    color:#555;
+    font-family: 'Droid Serif', serif;
+}
+
+.resume .personal-desc{
+    padding-top:5px;
+    border-left:5px solid #ddd;
+    padding-left:10px;
+}
+
+.resume .personal-desc h3{
+    margin-top:10px;
+    font-family: 'Droid Serif', serif;
+    font-size:18px;
+}
+
+.resume .personal-desc p.personal-para{
+    font-family: 'Droid Serif', serif;
+    font-size:15px;
+    color:#888;
+    padding-bottom:20px;
+    font-style:italic;
+}
+
+.resume .table td span{
+    font-weight:600;
+    font-size:13px;
+}
+
+.resume .personal-desc span{
+    font-weight:normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size:11px;
+}
+
+.resume .personal-desc p.degree{
+    font-family: 'Open Sans', sans-serif;
+    font-style:italic;
+    color:#777;
+    font-size:13px;
+}
+
+.resume .personal-desc p{
+    padding-top:6px;
+    font-size:15px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom:7px;
+}
+
+.resume .personal-desc .progress{
+    height:10px !important;
+}
+
+.resume .personal-desc legend{
+    font-family: 'Droid Serif', serif;
+    font-size:18px;
+}
+
+.resume .personal-desc label.control-label{
+    font-family: 'Open Sans', sans-serif;
+    size:15px;
+    font-weight:normal;
+}
+
+.resume .personal-desc button.btn{
+    font-family: 'Open Sans', sans-serif;
+    size:15px;
+}
+
+/* Footer */
+
+.footer{
+    padding:20px;
+    background:#ddd url('/img/headerback.png') repeat;
+    border-radius:8px;
+    box-shadow:0px 0px 3px #333;
+    margin-top:10px;
+}
+
+.footer .copy{
+    text-align:center;
+}
+
+.footer .copy a{
+    text-decoration:none;
+    color:#555;
+    font-size:13px;
+}
+
+.footer .copy a:hover{
+    text-decoration:none;
+    color:#888;
+}
+
+/* Responsive CSS */
+
+/* Mobile phones */
+@media (max-width: 480px){
+    .resume .personal-desc span.label{
+        float:none !important;
+
+    }
+}
+
+/* Tablets */
+@media (max-width: 991px){
+    .container{
+        width:100%;
+        max-width:600px;
+    }
+
+    .header{
+        padding-left:20px;
+        padding-bottom:20px;
+    }
+
+    .header .user-image img{
+        display:block;
+        margin:10px auto;
+
+    }
+
+    .header .user h1{
+        text-align:center;
+    }
+
+    .header .white-header{
+        text-align:center;
+        border-bottom:0px;
+        border-left:0px;
+        border-right:0px;
+
+    }
+
+    .header .white-header span.mobile{
+        display:block;
+        padding:10px;
+    }
+
+    .header .name span{
+        text-align:center;
+        display:block;
+    }
+
+    .header .skills{
+        text-align:center;
+    }
+
+    .header .skills span.icons{
+        display:block;
+        line-height:35px;
+        padding:10px;
+    }
+
+    .resume .personal-desc{
+        margin-top:20px;
+    }
+}

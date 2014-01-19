@@ -1,0 +1,1 @@
+Education = new Meteor.Collection('education');
