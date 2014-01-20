@@ -48,6 +48,34 @@ hr{
 
 /* Basic CSS ends */
 
+/* Forms */
+.dateRange {
+    width: 200px;
+}
+
+.companyName {
+    width: 300px;
+}
+
+input.title {
+    width: 300px;
+}
+
+textarea.editBullet {
+    width: 500px;
+    height: 75px;
+}
+
+.editForm {
+    display: none;
+}
+
+ul {
+    vertical-align:bottom;
+}
+
+.top-buffer { margin-top:10px; }
+
 /* Container */
 
 .container{

@@ -4,7 +4,9 @@
     "basePackages": {
       "spin": {},
       "iron-router": {},
-      "bootstrap-3": {}
+      "bootstrap-3": {},
+      "collection2": {},
+      "autoform": {}
     },
     "packages": {
       "spin": {
@@ -21,6 +23,26 @@
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
         "tag": "v0.3.7",
         "commit": "5dd0d142c870647b910be80bc777b96f0dd45e5e"
+      },
+      "collection2": {
+        "git": "https://github.com/aldeed/meteor-collection2.git",
+        "tag": "v0.3.3",
+        "commit": "d5c99b1c0fe30778e683175ecb0dd36529e6271e"
+      },
+      "autoform": {
+        "git": "https://github.com/aldeed/meteor-autoform.git",
+        "tag": "v0.4.10",
+        "commit": "6f02c8f8f97ae82b7b4d1e2a529edfa3700b6e9b"
+      },
+      "simple-schema": {
+        "git": "https://github.com/aldeed/meteor-simple-schema.git",
+        "tag": "v0.2.29",
+        "commit": "dc40caf4eaaeb456e1a4e7e227ad326bcd5607b5"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.2.1",
+        "commit": "9ee12e714afe56b189f53076447b7b54f3012065"
       }
     }
   }

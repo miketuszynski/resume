@@ -27,3 +27,84 @@
         </div>
     </div>
 </template>
+
+<template name="experienceEdit">
+    <div class="container">
+        <div class="resume">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="personal-details">
+                        <h3>Experience</h3>
+                        <p><em>Proven Quality.</em></p>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="personal-desc">
+                        <div class="row">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-info">Pick Experience</button>
+                                <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    {{#each experiences}}
+                                    <li><a href="#">{{companyName}}</a></li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                        </div>
+                        <form id="editForm" name="editForm" class="editForm">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="control-group">
+                                        <label class="control-label" for="companyName">Company Name</label>
+                                        <div class="controls">
+                                            <input class="companyName" name="companyName" type="text" placeholder="Company Name"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 pull-right">
+                                    <div class="control-group">
+                                        <label class="control-label" for="employmentDateRange">Date Range</label>
+                                        <div class="controls">
+                                            <input class="dateRange" name="employmentDateRange" type="text" placeholder="Date Range"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row top-buffer">
+                                <div class="col-md-5">
+                                    <div class="control-group">
+                                        <label class="control-label" for="title">Job Title</label>
+                                        <div class="controls">
+                                            <input class="jobTitle" name="jobTitle" type="text" placeholder="Job Title"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row top-buffer">
+                                <div id="editBullet" class="col-md-5">
+
+                                </div>
+                            </div>
+
+                            <div class="row top-buffer">
+                                <div class="col-md-5">
+                                    <div class="control-group">
+                                        <div class="controls">
+                                            <input type="submit" value="Submit" class="btn btn-primary"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+</template>
