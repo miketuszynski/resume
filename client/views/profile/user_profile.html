@@ -3,6 +3,85 @@
     <div class="col-md-3">
         <div class="user">
             <div class="user-image">
+                <img src="img/avatar.png" alt="image" class="img-responsive"/>
+            </div>
+            <div style="margin-left:10px">
+                <h1>{{firstName}} {{lastName}}</h1>
+                <div style="margin-top:-12px;">
+                    {{#each profileOptions}}
+                    {{#if enable true}}
+                    <a class="btn btn-md no-radius no-display" href="{{location}}" id="{{title}}"><i class="{{icon}}"></i> {{title}}</a>
+                    <br>
+                    {{/if}}
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="white-header">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-5">
+
+                            <span class="mobile"><i class="icon-mobile-phone"></i><span class="address">(415) 508-8957</span></span>
+
+                            <br>
+
+
+                            <span class="mobile"><i class="icon-home"></i><span class="address">1455 Jefferson St</span></span>
+                        </div>
+                        <div class="col-md-7" style="margin-top:7px">
+
+                            <span class="mobile"><i class="icon-envelope"></i><a href="mailto:mike@miketuszynski.info" class="email">mike@miketuszynski.info</a></span>
+
+                            <br>
+                            <span class="mobile"><i class="icon-map-marker"></i><span class="address">San Francisco, CA 94123</span></span>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <!-- Social Links -->
+                    <span class="social pull-right">
+
+                        <a href="http://lnkd.in/v3Qbhn" class="linkedin"><i class="icon-linkedin"></i></a>
+                        <a href="https://twitter.com/tuzman" class="twitter"><i class="icon-twitter"></i></a>
+                        <a href="https://www.facebook.com/tuzman" class="facebook"><i class="icon-facebook"></i></a>
+                        <a href="https://plus.google.com/u/0/118154214685688201078/" class="google-plus"><i class="icon-google-plus'"></i></a>
+                        <a href="https://github.com/miketuszynski" class="github"><i class="icon-github"></i></a>
+
+                    </span>
+                        <!-- social Links -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="white-header">
+
+            <span class="row">
+            I am a sophisticated and skilled strategic lead technologist with far-reaching experience in consolidating workflow and automation through software development. I possess a rare combination of technology expertise and excellent problem solving skills. This skillset along with my relentless work ethic provides me with a strong foundation to pursue my passion for innovative solutions.
+            </span>
+            <span class="row">
+            My recent career experience has been spent at various advertising technology organizations where I have been involved in building solutions that automate workflow and gain efficiencies in various departments. I have led and continue to lead technology professionals in a variety of ways, such as technical thought-leadership, code review and QA, and process overview and enhancement.
+            </span>
+            <span class="row">
+            Since the majority of my career has been working within the advertising vertical I possess deep knowledge and understanding of its technical landscape. My work history and experience allows me to straddle both the technology and business worlds in the development of cutting edge solutions.
+            </span>
+
+        </div>
+
+    </div>
+    {{/each}}
+</template>
+<template name="userProfile_data">
+    {{#each userProfile}}
+    <div class="col-md-3">
+        <div class="user">
+            <div class="user-image">
                 <img src="{{thumbnail}}" alt="image" class="img-responsive"/>
             </div>
             <div style="margin-left:10px">

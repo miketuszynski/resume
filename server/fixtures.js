@@ -80,7 +80,7 @@ if (UserProfile.find().count() === 0)
     UserProfile.insert({
         firstName: 'Mike',
         lastName: 'Tuszynski',
-        thumbnail: 'img/avatar.png',
+        thumbnail: 'img\/avatar.png',
         tagLine: [
             { icon: 'icon-code', title: 'Technical Guru' },
             { icon: 'icon-code-fork', title: 'Leader' },
